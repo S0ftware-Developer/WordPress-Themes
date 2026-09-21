@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 320 240" style="background:#050905; width:100%; max-width:800px; height:auto; border:4px solid #3cb371; border-radius:8px;">
+  <!-- Ночной город и силуэты небоскребов -->
+  <rect width="320" height="240" fill="#050905"/>
+  <rect x="0" y="0" width="320" height="80" fill="#0f1d21"/>
+  <polygon points="20,80 40,30 60,80" fill="#1a2b3c"/>
+  <polygon points="100,80 130,20 160,80" fill="#1a2b3c"/>
+  <polygon points="200,80 230,40 260,80" fill="#1a2b3c"/>
+  
+  <!-- Разделитель и кирпичная стена подземелья -->
+  <rect x="0" y="80" width="320" height="12" fill="#112211"/>
+  <rect x="0" y="92" width="320" height="148" fill="#18120c"/>
+  
+  <!-- Пиксельные швы кирпичей -->
+  <path d="M0 92h320M0 112h320M0 132h320M0 152h320M0 172h320M0 192h320M0 212h320M0 232h320" stroke="#0a0705" stroke-width="3"/>
+  <path d="M20 92v20M80 92v20M140 92v20M200 92v20M260 92v20M50 112v20M110 112v20M170 112v20M230 112v20M290 112v20M20 132v20M80 132v20M140 132v20M200 132v20M260 132v20" stroke="#0a0705" stroke-width="3"/>
+  
+  <!-- Канализационный люк SEWER -->
+  <circle cx="160" cy="165" r="35" fill="#222222" stroke="#383838" stroke-width="4"/>
+  <circle cx="160" cy="165" r="28" fill="#151515" stroke="#282828" stroke-width="2"/>
+  <path d="M140 165h40M160 145v40" stroke="#383838" stroke-width="3"/>
+  <text x="160" y="170" font-family="monospace" font-size="8" font-weight="bold" fill="#3cb371" text-anchor="middle">SEWER</text>
+</svg>
